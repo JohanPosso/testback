@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+    webapp-server:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      image: test-back-img
+      container_name: testback
+      volumes:
+       - .:/usr/src/index
+       - /usr/src/app/node_modules
+      ports:
+        - "3000:3000"

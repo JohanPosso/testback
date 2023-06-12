@@ -1,0 +1,20 @@
+{
+  "name": "backend-node",
+  "version": "1.0.0",
+  "description": "Api con Express, Sequelize, PostgresSQL, Joi y Bcrypt",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.0"
+  }
+}
