@@ -15,7 +15,7 @@ const allRoutes = require("./routes/index");
 allRoutes(app);
 
 app.get("/", (req, res) => {
-  res.send("Hola bienvendio");
+  res.send("Hola, bienvenido");
 });
 
 app.listen(port, () => {
