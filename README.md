@@ -1,4 +1,4 @@
-# testback# Docker, Node.js, Vue.js, AWS, Sequelize, GithubAction
+# Docker, Node.js, Vue.js, AWS, Sequelize, GithubAction
 
 _Para este desarrollo se espera que construyas una base de datos en AWS, extraigas información de la API de CoinMarketCap mediante una función Lambda escrita en Python, y luego despliegues una página web donde muestres un gráfico con la información extraída utilizando un contenedor Docker y, finalmente, implementes un flujo de trabajo de integración continua con GitHub Actions_
 
